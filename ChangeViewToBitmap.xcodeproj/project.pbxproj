@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1077EC1550980C00F5CDFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1077EB1550980C00F5CDFD /* UIKit.framework */; };
+		8C1077EE1550980C00F5CDFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1077ED1550980C00F5CDFD /* Foundation.framework */; };
+		8C1077F01550980C00F5CDFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1077EF1550980C00F5CDFD /* CoreGraphics.framework */; };
+		8C1077F61550980C00F5CDFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1077F41550980C00F5CDFD /* InfoPlist.strings */; };
+		8C1077F81550980C00F5CDFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1077F71550980C00F5CDFD /* main.m */; };
+		8C1077FC1550980C00F5CDFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1077FB1550980C00F5CDFD /* AppDelegate.m */; };
+		8C1077FF1550980C00F5CDFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1077FE1550980C00F5CDFD /* ViewController.m */; };
+		8C1078021550980C00F5CDFD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1078001550980C00F5CDFD /* ViewController.xib */; };
+		8C885C71156EB7F300EDB9A9 /* SphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C885C70156EB7F300EDB9A9 /* SphereView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C1077E71550980C00F5CDFD /* ChangeViewToBitmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeViewToBitmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1077EB1550980C00F5CDFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C1077ED1550980C00F5CDFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C1077EF1550980C00F5CDFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C1077F31550980C00F5CDFD /* ChangeViewToBitmap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeViewToBitmap-Info.plist"; sourceTree = "<group>"; };
+		8C1077F51550980C00F5CDFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C1077F71550980C00F5CDFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C1077F91550980C00F5CDFD /* ChangeViewToBitmap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChangeViewToBitmap-Prefix.pch"; sourceTree = "<group>"; };
+		8C1077FA1550980C00F5CDFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C1077FB1550980C00F5CDFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C1077FD1550980C00F5CDFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C1077FE1550980C00F5CDFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C1078011550980C00F5CDFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8C885C6F156EB7F300EDB9A9 /* SphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereView.h; sourceTree = "<group>"; };
+		8C885C70156EB7F300EDB9A9 /* SphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1077E41550980C00F5CDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1077EC1550980C00F5CDFD /* UIKit.framework in Frameworks */,
+				8C1077EE1550980C00F5CDFD /* Foundation.framework in Frameworks */,
+				8C1077F01550980C00F5CDFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1077DC1550980B00F5CDFD = {
+			isa = PBXGroup;
+			children = (
+				8C1077F11550980C00F5CDFD /* ChangeViewToBitmap */,
+				8C1077EA1550980C00F5CDFD /* Frameworks */,
+				8C1077E81550980C00F5CDFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1077E81550980C00F5CDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1077E71550980C00F5CDFD /* ChangeViewToBitmap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1077EA1550980C00F5CDFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C1077EB1550980C00F5CDFD /* UIKit.framework */,
+				8C1077ED1550980C00F5CDFD /* Foundation.framework */,
+				8C1077EF1550980C00F5CDFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C1077F11550980C00F5CDFD /* ChangeViewToBitmap */ = {
+			isa = PBXGroup;
+			children = (
+				8C1077FA1550980C00F5CDFD /* AppDelegate.h */,
+				8C1077FB1550980C00F5CDFD /* AppDelegate.m */,
+				8C1077FD1550980C00F5CDFD /* ViewController.h */,
+				8C1077FE1550980C00F5CDFD /* ViewController.m */,
+				8C885C6F156EB7F300EDB9A9 /* SphereView.h */,
+				8C885C70156EB7F300EDB9A9 /* SphereView.m */,
+				8C1078001550980C00F5CDFD /* ViewController.xib */,
+				8C1077F21550980C00F5CDFD /* Supporting Files */,
+			);
+			path = ChangeViewToBitmap;
+			sourceTree = "<group>";
+		};
+		8C1077F21550980C00F5CDFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1077F31550980C00F5CDFD /* ChangeViewToBitmap-Info.plist */,
+				8C1077F41550980C00F5CDFD /* InfoPlist.strings */,
+				8C1077F71550980C00F5CDFD /* main.m */,
+				8C1077F91550980C00F5CDFD /* ChangeViewToBitmap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1077E61550980C00F5CDFD /* ChangeViewToBitmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1078051550980C00F5CDFD /* Build configuration list for PBXNativeTarget "ChangeViewToBitmap" */;
+			buildPhases = (
+				8C1077E31550980C00F5CDFD /* Sources */,
+				8C1077E41550980C00F5CDFD /* Frameworks */,
+				8C1077E51550980C00F5CDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeViewToBitmap;
+			productName = ChangeViewToBitmap;
+			productReference = 8C1077E71550980C00F5CDFD /* ChangeViewToBitmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1077DE1550980B00F5CDFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8C1077E11550980B00F5CDFD /* Build configuration list for PBXProject "ChangeViewToBitmap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C1077DC1550980B00F5CDFD;
+			productRefGroup = 8C1077E81550980C00F5CDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1077E61550980C00F5CDFD /* ChangeViewToBitmap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1077E51550980C00F5CDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1077F61550980C00F5CDFD /* InfoPlist.strings in Resources */,
+				8C1078021550980C00F5CDFD /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1077E31550980C00F5CDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1077F81550980C00F5CDFD /* main.m in Sources */,
+				8C1077FC1550980C00F5CDFD /* AppDelegate.m in Sources */,
+				8C1077FF1550980C00F5CDFD /* ViewController.m in Sources */,
+				8C885C71156EB7F300EDB9A9 /* SphereView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C1077F41550980C00F5CDFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1077F51550980C00F5CDFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C1078001550980C00F5CDFD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1078011550980C00F5CDFD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C1078031550980C00F5CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8C1078041550980C00F5CDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1078061550980C00F5CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeViewToBitmap/ChangeViewToBitmap-Prefix.pch";
+				INFOPLIST_FILE = "ChangeViewToBitmap/ChangeViewToBitmap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C1078071550980C00F5CDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeViewToBitmap/ChangeViewToBitmap-Prefix.pch";
+				INFOPLIST_FILE = "ChangeViewToBitmap/ChangeViewToBitmap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1077E11550980B00F5CDFD /* Build configuration list for PBXProject "ChangeViewToBitmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1078031550980C00F5CDFD /* Debug */,
+				8C1078041550980C00F5CDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1078051550980C00F5CDFD /* Build configuration list for PBXNativeTarget "ChangeViewToBitmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1078061550980C00F5CDFD /* Debug */,
+				8C1078071550980C00F5CDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1077DE1550980B00F5CDFD /* Project object */;
+}
